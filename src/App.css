@@ -1,0 +1,87 @@
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1,h2,h3 {
+  margin-bottom: 8px;
+  color: #000;
+}
+
+p {
+  color: #000000;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.task-form textarea {
+  min-height: 80px;
+  resize: vertical;
+  color: #000;
+}
+
+.task-form button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: rgb(7, 7, 7);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 35px;
+  color: #000;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #c4c2c2;
+  color: #000;
+}
+
+.task-item h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #000;
+}
+
+.task-item p {
+  font-size: 13px;
+  color: #000;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-actions button {
+  padding: 7px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+}
